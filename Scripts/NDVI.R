@@ -36,3 +36,5 @@ ndvi_mask <-mask(ndvi_crop, Ernakulam)
 plot(ndvi_mask, main="NDVI")
 ndvi_mask
 
+#Export GeoTiff raster image
+writeRaster(ndvi_mask, 'E:\\Gokul\\Urban\\Urban\\NDVI.tif')
