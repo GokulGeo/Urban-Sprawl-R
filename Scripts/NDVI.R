@@ -1,5 +1,10 @@
 library(raster)
 
+#List files in directory for filenames 
+list.files(path = "E:\\Gokul\\Urban\\Landsat\\2018", pattern = NULL, all.files = FALSE,
+           full.names = FALSE, recursive = FALSE,
+           ignore.case = FALSE, include.dirs = FALSE, no.. = FALSE)
+
 #Blue band
 b2 <- raster('E:\\Gokul\\Urban\\Landsat\\LC08_L1TP_144053_20190313_20190325_01_T1_B2.tif')
 
